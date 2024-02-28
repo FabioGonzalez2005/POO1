@@ -8,4 +8,7 @@ class persona:
 
     def cumpleanos(self):
         self.anos += 1
-        print (self.anos)
+        print (self.anos, "\n")
+
+if __name__ == "__main__":
+    main()
