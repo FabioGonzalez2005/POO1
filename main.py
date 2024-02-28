@@ -1,15 +1,12 @@
 from alumno import alumno
 
 def main():
-    pass
-
-def main():
-    javier = alumno.alumno()
+    javier = alumno()
     javier.nota = 6
     javier.imprimir()
     javier.promociona()
 
-    diego = alumno.alumno()
+    diego = alumno()
     diego.nota = 3
     diego.imprimir()
     diego.promociona()
