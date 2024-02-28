@@ -1,4 +1,4 @@
-import alumno
+from alumno import alumno
 
 def main():
     pass
