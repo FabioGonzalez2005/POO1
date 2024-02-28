@@ -8,9 +8,9 @@ class alumno:
 
     def promociona(self):
         if self.nota >= 5:
-            print("Promociona.")
+            print("Promociona.\n")
         else:
-            print("No promociona.")
+            print("No promociona.\n")
 
 if __name__ == "__main__":
     main()
