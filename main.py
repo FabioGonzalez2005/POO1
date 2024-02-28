@@ -1,13 +1,11 @@
 from alumno import alumno
 
 def main():
-    javier = alumno()
-    javier.nota = 6
+    javier = alumno("Javier", 6)
     javier.imprimir()
     javier.promociona()
 
-    diego = alumno()
-    diego.nota = 3
+    diego = alumno("Diego", 3)
     diego.imprimir()
     diego.promociona()
 
