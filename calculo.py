@@ -9,7 +9,6 @@ class Calculo:
 
     def sumaOperar(self):
         self.suma = self.numero1 + self.numero2
-        return self.suma
 
     def restaOperar(self):
         self.resta = self.numero1 - self.numero2
